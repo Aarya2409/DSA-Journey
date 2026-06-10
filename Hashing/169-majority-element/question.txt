@@ -1,0 +1,52 @@
+📌 169. Majority Element
+
+🟢 Difficulty: Easy
+
+Given an array nums of size n, return the majority element.
+
+The majority element is the element that appears more than ⌊n / 2⌋ times.
+You may assume that the majority element always exists in the array.
+
+🧪 Example 1
+
+Input:
+nums = [3,2,3]
+
+Output:
+3
+
+Explanation:
+3 appears 2 times.
+n = 3
+⌊n/2⌋ = 1
+
+2 > 1
+
+Therefore, 3 is the majority element.
+
+--------------------------------------------------
+
+🧪 Example 2
+
+Input:
+nums = [2,2,1,1,1,2,2]
+
+Output:
+2
+
+Explanation:
+2 appears 4 times.
+n = 7
+⌊n/2⌋ = 3
+
+4 > 3
+
+Therefore, 2 is the majority element.
+
+--------------------------------------------------
+
+💡 Pattern:
+Hash Map / Frequency Counting
+
+💡 Key Idea:
+Count the frequency of every number and return the number whose count is greater than n // 2.
